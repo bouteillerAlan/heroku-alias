@@ -41,9 +41,9 @@ alias hlog='heroku apps:errors'
 alias hfav='heroku apps:favorites'
 alias hfava='heroku apps:favorites:add'
 alias hfavr='heroku apps:favorites:remove'
-alias hi='heroku apps:info'
-alias hir='heroku apps:info -r'
-alias hia='heroku apps:info -a'
+alias hai='heroku apps:info'
+alias hair='heroku apps:info -r'
+alias haia='heroku apps:info -a'
 
 # auth
 alias h2fa='heroku auth:2fa'
