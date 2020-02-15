@@ -3,6 +3,18 @@ alias h='heroku'
 alias hauto='heroku autocomplete $(echo $SHELL)'
 alias hl='heroku local'
 
+# log
+alias hg='heroku logs'
+alias hgt='heroku log tail'
+
+# database
+alias hpg='heroku pg'
+alias hpsql='heroku pg:psql'
+alias hpb='heroku pg:backups'
+alias hpbc='heroku pg:backups:capture'
+alias hpbd='heroku pg:backups:download'
+alias hpbr='heroku pg:backups:restore'
+
 # config
 alias hc='heroku config'
 alias hca='heroku config -a'
@@ -10,6 +22,7 @@ alias hcr='heroku config -r'
 alias hcs='heroku config:set'
 alias hcu='heroku config:unset'
 
+# this function allow to load multi env set in a file
 hcfile() {
   echo 'Which platform [-r/a name] ?'
   read platform
