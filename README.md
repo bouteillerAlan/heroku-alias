@@ -1,7 +1,7 @@
 > **Is a wip Luke.**
 
 # heroku-alias
-🧬 Full | for heroku cli
+🧬 Full alias for heroku cli
 
 📡 source : https://devcenter.heroku.com/articles/heroku-cli-commands
 
@@ -46,9 +46,9 @@ hcfile() {
 | hfav | heroku apps:favorites |
 | hfava | heroku apps:favorites:add |
 | hfavr | heroku apps:favorites:remove |
-| hi | heroku apps:info |
-| hir | heroku apps:info -r |
-| hia | heroku apps:info -a |
+| hai | heroku apps:info |
+| hair | heroku apps:info -r |
+| haia | heroku apps:info -a |
 
 # auth
 | Alias  | Command |
