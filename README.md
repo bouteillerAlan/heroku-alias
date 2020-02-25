@@ -116,3 +116,12 @@ hcfile() {
 | hpbc | heroku pg:backups:capture |
 | hpbd | heroku pg:backups:download |
 | hpbr | heroku pg:backups:restore |
+
+# certs
+| Alias  | Command |
+| ------------- | ------------- |
+| hssl | heroku certs |
+| hssli | heroku certs:info |
+| hssla | heroku certs:add |
+| hsslu | heroku certs:update |
+| hsslr | heroku certs:remove |
