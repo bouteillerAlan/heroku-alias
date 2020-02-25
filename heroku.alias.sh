@@ -83,3 +83,10 @@ alias hthup='heroku authorizations:update'
 
 # plugins
 alias hp='heroku plugins'
+
+# cert
+alias hssl='heroku certs'
+alias hssli='heroku certs:info'
+alias hssla='heroku certs:add'
+alias hsslu='heroku certs:update'
+alias hsslr='heroku certs:remove'
